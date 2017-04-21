@@ -62,3 +62,8 @@ function processStringN(s : string | null) {
 // processStringN('hello');
 // processStringN(null);
 // processStringN(undefined);
+
+type PenguinSpecies = 'Emperor' | 'King' | 'Adelie';
+
+// let species1 : PenguinSpecies = 'Adelie';
+// let species2 : PenguinSpecies = 'Gentoo';
